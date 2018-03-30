@@ -13,7 +13,9 @@ to keep up with the language and learn how to use the Scala test library as well
 * Single number
 * Single number II
 * Single number III
+* Merge Two Sorted Lists
 
 ## Versions
+* 1.0.1 (03/30/2018) - Added "Merge Two Sorted Lists" exercise
 
-* 1.0.0 - Initial version
+* 1.0.0 (03/30/2018) - Initial version
