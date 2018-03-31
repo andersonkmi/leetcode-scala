@@ -15,8 +15,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Single number III
 * Merge Two Sorted Lists
 * Remove duplicates from sorted list II
+* Valid palindrome
 
 ## Versions
+* 1.0.2 (03/31/2018) - Added "Valid palindrome" exercise.
+
 * 1.0.2 (03/30/2018) - Added "Remove duplicates from sorted list II" exercise.
 
 * 1.0.1 (03/30/2018) - Added "Merge Two Sorted Lists" exercise.
