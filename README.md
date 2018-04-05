@@ -19,9 +19,9 @@ to keep up with the language and learn how to use the Scala test library as well
 * Path sum
 
 ## Versions
-* 1.0.3 (04/04/2018) - Added "Path sum" exercise.
+* 1.0.4 (04/04/2018) - Added "Path sum" exercise.
 
-* 1.0.2 (03/31/2018) - Added "Valid palindrome" exercise.
+* 1.0.3 (03/31/2018) - Added "Valid palindrome" exercise.
 
 * 1.0.2 (03/30/2018) - Added "Remove duplicates from sorted list II" exercise.
 
