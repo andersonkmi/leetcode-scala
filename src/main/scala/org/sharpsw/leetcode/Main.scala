@@ -24,5 +24,8 @@ object Main extends App {
 
   node6.right = node9
 
-  println(PathSum.hasPathSum(node1, 21))
+  //println(PathSum.hasPathSum(node1, 21))
+  //PrintTree.printNodesByLevel(node1)
+  val result = BinaryTreeLevelTraversal.levelOrder(node1)
+  result.foreach(item => println(item.mkString(" ")))
 }
