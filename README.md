@@ -19,12 +19,14 @@ to keep up with the language and learn how to use the Scala test library as well
 * Path sum
 
 ## Versions
-* 1.0.4 (04/04/2018) - Added "Path sum" exercise.
+* 1.0.6.1 (04/13/2018) - Added Travis CI support.
 
-* 1.0.3 (03/31/2018) - Added "Valid palindrome" exercise.
+* 1.0.4.0 (04/04/2018) - Added "Path sum" exercise.
 
-* 1.0.2 (03/30/2018) - Added "Remove duplicates from sorted list II" exercise.
+* 1.0.3.0 (03/31/2018) - Added "Valid palindrome" exercise.
 
-* 1.0.1 (03/30/2018) - Added "Merge Two Sorted Lists" exercise.
+* 1.0.2.0 (03/30/2018) - Added "Remove duplicates from sorted list II" exercise.
 
-* 1.0.0 (03/30/2018) - Initial version.
+* 1.0.1.0 (03/30/2018) - Added "Merge Two Sorted Lists" exercise.
+
+* 1.0.0.0 (03/30/2018) - Initial version.
