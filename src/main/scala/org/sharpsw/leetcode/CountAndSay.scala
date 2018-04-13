@@ -4,7 +4,7 @@ import scala.collection.mutable
 
 object CountAndSay {
   def countAndSay(n: Int): String = {
-
+    ""
   }
 
   private def say(value: String): String = {
