@@ -1,10 +1,7 @@
-# Leetcode coding exercises in Scala
+# Leetcode coding exercises in Scala  [![Build Status](https://travis-ci.org/andersonkmi/leetcode-scala.svg?branch=master)](https://travis-ci.org/andersonkmi/leetcode-scala)
+
 
 Writing the exercises in leetcode.com using Scala language.
-
-## Build status in Travis-CI
-
-[![Build Status](https://travis-ci.org/andersonkmi/leetcode-scala.svg?branch=master)](https://travis-ci.org/andersonkmi/leetcode-scala)
 
 
 ## Purpose
