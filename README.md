@@ -1,10 +1,7 @@
-# Leetcode coding exercises in Scala
+# Leetcode coding exercises in Scala  [![Build Status](https://travis-ci.org/andersonkmi/leetcode-scala.svg?branch=master)](https://travis-ci.org/andersonkmi/leetcode-scala)
+
 
 Writing the exercises in leetcode.com using Scala language.
-
-## Build status in Travis-CI
-
-[![Build Status](https://travis-ci.org/andersonkmi/leetcode-scala.svg?branch=master)](https://travis-ci.org/andersonkmi/leetcode-scala)
 
 
 ## Purpose
@@ -24,6 +21,8 @@ to keep up with the language and learn how to use the Scala test library as well
 * Path sum
 
 ## Versions
+* 1.0.6.3 (04/13/2018) - Added Travis CI badge.
+
 * 1.0.6.2 (04/13/2018) - Added Travis CI badge.
 
 * 1.0.6.1 (04/13/2018) - Added Travis CI support.
