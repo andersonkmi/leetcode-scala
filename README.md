@@ -19,8 +19,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Remove duplicates from sorted list II
 * Valid palindrome
 * Path sum
+* Count and say
 
 ## Versions
+* 1.0.7.0 (04/14/2018) - Added CountAndSay exercise.
+
 * 1.0.6.3 (04/13/2018) - Added Travis CI badge.
 
 * 1.0.6.2 (04/13/2018) - Added Travis CI badge.
