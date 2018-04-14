@@ -4,21 +4,38 @@ import scala.collection.mutable
 
 object CountAndSay {
   def countAndSay(n: Int): String = {
-    ""
+    val elements = mutable.LinkedHashMap[Int, String]()
+    elements(1) = "1"
+
+    for(i <- 2 to n) {
+      elements(i) = say(elements(i - 1))
+    }
+
+    elements(n)
   }
 
   private def say(value: String): String = {
-    val digitsMap:mutable.LinkedHashMap[Char, Int] = mutable.LinkedHashMap[Char, Int]()
+    var elements = mutable.MutableList[(Int, Char)]()
+    val stack = mutable.Stack[Char]()
 
-    value.foreach(character => {
-      if(digitsMap.contains(character)) {
-        val counter = digitsMap.get(character).get
-        digitsMap.put(character, counter + 1)
+    var counter = 1
+    var currentChar = value.charAt(0)
+
+    for(pos <- 1 until value.length) {
+     if(value.charAt(pos).equals(currentChar)) {
+        counter += 1
       } else {
-        digitsMap.put(character, 1)
-      }
-    })
+        val element = (counter, currentChar)
+        elements += element
 
-    digitsMap.map(item => item._1 + item._2).mkString
+        counter = 1
+        currentChar = value.charAt(pos)
+      }
+    }
+
+    val element = (counter, currentChar)
+    elements += element
+
+    elements.map(item => s"${item._1}${item._2}").mkString
   }
 }
