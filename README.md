@@ -20,6 +20,7 @@ to keep up with the language and learn how to use the Scala test library as well
 * Valid palindrome
 * Path sum
 * Count and say
+* Binary tree level traversal
 
 ## Versions
 * 1.0.7.0 (04/14/2018) - Added CountAndSay exercise.
