@@ -26,6 +26,6 @@ object Main extends App {
 
   //println(PathSum.hasPathSum(node1, 21))
   //PrintTree.printNodesByLevel(node1)
-  val result = BinaryTreeLevelTraversal.levelOrder(node1)
+  val result = BinaryTreeLevelTraversalII.levelOrderBottom(node1)
   result.foreach(item => println(item.mkString(" ")))
 }

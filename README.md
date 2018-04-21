@@ -20,8 +20,12 @@ to keep up with the language and learn how to use the Scala test library as well
 * Valid palindrome
 * Path sum
 * Count and say
+* Binary tree level traversal
+* Binary tree level traversal II
 
 ## Versions
+* 1.0.8.0 (04/21/2018) - Added Binary tree level traversal II exercise.
+
 * 1.0.7.0 (04/14/2018) - Added CountAndSay exercise.
 
 * 1.0.6.3 (04/13/2018) - Added Travis CI badge.
