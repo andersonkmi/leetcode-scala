@@ -24,8 +24,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Binary tree level traversal II
 * Maximum Depth of Binary Tree
 * Longest common prefix
+* Plus one
 
 ## Versions
+* 1.0.11.0 (05/20/2018) - Added Plus One exercise. 
+
 * 1.0.10.0 (05/19/2018) - Added Longest common prefix exercise.
 
 * 1.0.9.0 (04/21/2018) - Added Maximum Depth of Binary Tree exercise.
