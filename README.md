@@ -25,8 +25,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Maximum Depth of Binary Tree
 * Longest common prefix
 * Plus one
+* Path sum II
 
 ## Versions
+* 1.0.12.0 (06/09/2018) - Added Sum Path II exercise and minor fix to Sum path exercise.
+
 * 1.0.11.0 (05/20/2018) - Added Plus One exercise. 
 
 * 1.0.10.0 (05/19/2018) - Added Longest common prefix exercise.

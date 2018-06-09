@@ -12,13 +12,13 @@ object PathSum {
 
   private def preOrderTraversal(node: TreeNode, sum: Int, currentSum: Int, elements: ListBuffer[Int]): Unit = {
     if(node != null) {
-      val currentValue = visitNode(node, sum, currentSum, elements)
+      val currentValue = visitNode(node, currentSum, elements)
       preOrderTraversal(node.left, sum, currentValue, elements)
       preOrderTraversal(node.right, sum, currentValue, elements)
     }
   }
 
-  private def visitNode(node: TreeNode, sum: Int, currentSum: Int, elements: ListBuffer[Int]): Int = {
+  private def visitNode(node: TreeNode, currentSum: Int, elements: ListBuffer[Int]): Int = {
     println(s"Node value: ${node._value}")
     val currentVal = currentSum + node._value
     if(node.left == null && node.right == null) {
