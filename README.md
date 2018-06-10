@@ -26,8 +26,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Longest common prefix
 * Plus one
 * Path sum II
+* Flatten binary tree
 
 ## Versions
+* 1.0.13.0 (06/10/2018) - Added Flatten binary tree exercise.
+
 * 1.0.12.0 (06/09/2018) - Added Sum Path II exercise and minor fix to Sum path exercise.
 
 * 1.0.11.0 (05/20/2018) - Added Plus One exercise. 
