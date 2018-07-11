@@ -27,8 +27,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Plus one
 * Path sum II
 * Flatten binary tree
+* Word break
 
 ## Versions
+* 1.0.14.0 (07/10/2018) - Added Word break exercise.
+
 * 1.0.13.0 (06/10/2018) - Added Flatten binary tree exercise.
 
 * 1.0.12.0 (06/09/2018) - Added Sum Path II exercise and minor fix to Sum path exercise.
