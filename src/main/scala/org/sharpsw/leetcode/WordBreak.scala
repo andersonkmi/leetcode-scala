@@ -2,22 +2,24 @@ package org.sharpsw.leetcode
 
 object WordBreak {
   def wordBreak(s: String, wordDict: List[String]): Boolean = {
-    var word = s
-    var stop = false
-    val sortedDict = wordDict.sorted
+    val pos = new Array[Int](s.length + 1)
 
-    while(word.nonEmpty && !stop) {
-      val result = wordDict.map(item => (item, word.startsWith(item)))
-      result.foreach(i => println(i._1 + i._2))
-      val element = result.find(item => item._2)
-      element match {
-        case Some(i) => word = word.substring(i._1.length)
-        case None => stop = true
+    for(index <- pos.indices) {
+      pos(index) = -1
+    }
+    pos(0) = 0
+
+    for(idx <- 0 until s.length) {
+      if(pos(idx) != -1) {
+        for(j <- (idx + 1 ) to s.length) {
+          val sub = s.substring(idx, j)
+          if(wordDict.contains(sub)) {
+            pos(j) = idx
+          }
+        }
       }
-
-      println("word: " + word)
     }
 
-    if (!stop && word.isEmpty) true else false
+    pos(s.length()) != -1
   }
 }
