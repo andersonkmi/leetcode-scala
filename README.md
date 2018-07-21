@@ -29,8 +29,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Flatten binary tree
 * Word break
 * Roman to integer
+* Maximum SubArray
 
 ## Versions
+* 1.0.16.0 (07/21/2018) - Added Maximum SubArray exercise - not optimized version.
+
 * 1.0.15.0 (07/16/2018) - Added Roman to Integer exercise.
 
 * 1.0.14.0 (07/10/2018) - Added Word break exercise.
