@@ -33,6 +33,8 @@ to keep up with the language and learn how to use the Scala test library as well
 * Partition list
 
 ## Versions
+* 1.0.17.0 (09/23/2018) - Added few more unit tests for partition list exercise.
+
 * 1.0.17.0 (09/19/2018) - Added Partition List exercise.
 
 * 1.0.16.0 (07/21/2018) - Added Maximum SubArray exercise - not optimized version.
