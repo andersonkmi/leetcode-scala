@@ -31,8 +31,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Roman to integer
 * Maximum SubArray
 * Partition list
+* Add binary
 
 ## Versions
+* v1.0.18.0 (09/26/2018) - Added add binary exercise.
+
 * 1.0.17.0 (09/23/2018) - Added few more unit tests for partition list exercise.
 
 * 1.0.17.0 (09/19/2018) - Added Partition List exercise.
