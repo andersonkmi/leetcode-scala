@@ -2,10 +2,11 @@ package org.codecraftlabs.leetcode
 
 object ContainsDuplicate {
   def containsDuplicate(nums: Array[Int]): Boolean = {
-    if (nums.isEmpty) {
-      false
-    } else {
-      nums.groupBy(identity).mapValues(_.length).exists(item => item._2 > 1)
+    val numbers = Option(nums)
+    numbers match {
+      case None => false
+      case _ =>  val items = numbers.get
+                  if (items.isEmpty) false else items.groupBy(identity).mapValues(_.length).exists(item => item._2 > 1)
     }
   }
 }

@@ -4,6 +4,10 @@ import org.scalatest.{FlatSpec, Matchers}
 import org.codecraftlabs.leetcode.ContainsDuplicate.containsDuplicate
 
 class ContainsDuplicateSpec extends FlatSpec with Matchers {
+  "Null array" should "return false" in {
+    containsDuplicate(null) shouldEqual false
+  }
+
   "Empty array" should "return false" in {
     val items = Array[Int]()
     containsDuplicate(items) shouldEqual false
