@@ -33,8 +33,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Partition list
 * Add binary
 * Contains duplicate
+* Middle of linked list
 
 ## Versions
+* v1.0.20.0 (10/06/2018) - Added Middle of linked list exercise.
+
 * v1.0.19.0 (10/04/2018) - Added Contains duplicate exercise.
 
 * v1.0.18.0 (09/26/2018) - Added add binary exercise.
