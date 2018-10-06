@@ -36,6 +36,8 @@ to keep up with the language and learn how to use the Scala test library as well
 * Middle of linked list
 
 ## Versions
+* v1.0.20.1 (10/06/2018) - Improved null argument handling for Contains duplicate exercise.
+
 * v1.0.20.0 (10/06/2018) - Added Middle of linked list exercise.
 
 * v1.0.19.0 (10/04/2018) - Added Contains duplicate exercise.
