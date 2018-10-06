@@ -1,12 +1,15 @@
 package org.codecraftlabs.leetcode
 
 object MiddleLinkedList {
-  def middleNode(head: ListNode): ListNode = {
-    if(head == null) null
+  def middleNode(head: ListNode): Option[ListNode] = {
+    val rootNode = Option(head)
 
-    val size = length(head)
-    val middle = size / 2
-    elementAt(middle, head)
+    rootNode match {
+      case None => None
+      case _ => val size = length(head)
+                val middle = size / 2
+                Option(elementAt(middle, head))
+    }
   }
 
   private def length(root: ListNode): Int = {
