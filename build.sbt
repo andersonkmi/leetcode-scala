@@ -5,7 +5,7 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "org.codecraftlabs",
       scalaVersion := "2.12.7",
-      version      := "1.0.19.0"
+      version      := "1.0.20.0"
     )),
     name := "leetcode-scala",
     libraryDependencies += scalaTest % Test,
