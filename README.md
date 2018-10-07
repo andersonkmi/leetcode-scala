@@ -34,8 +34,11 @@ to keep up with the language and learn how to use the Scala test library as well
 * Add binary
 * Contains duplicate
 * Middle of linked list
+* Jewels and stones
 
 ## Versions
+* v1.0.21.0 (10/07/2018) - Added Jewels and stones exercise.
+
 * v1.0.20.2 (10/06/2018) - Improved null argument handling for Middle of linked list exercise.
 
 * v1.0.20.1 (10/06/2018) - Improved null argument handling for Contains duplicate exercise.
