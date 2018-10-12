@@ -4,9 +4,14 @@ import scala.collection.mutable
 
 object ReverseLinkedList {
   def reverseList(head: ListNode): ListNode = {
-    val nodeStack = mutable.ArrayStack[ListNode]()
-    process(head, nodeStack)
-    nodeStack.head
+    if (head == null) {
+      head
+    } else {
+      val nodeStack = mutable.ArrayStack[ListNode]()
+      process(head, nodeStack)
+      nodeStack.head
+    }
+
   }
 
   private def process(node: ListNode, nodeStack: mutable.ArrayStack[ListNode]): Unit = {
