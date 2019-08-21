@@ -3,6 +3,7 @@ scala:
     - 2.12.5
 jdk:
     - oraclejdk8
+dist: trusty
 
 # safelist
 branches:
