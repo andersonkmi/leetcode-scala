@@ -14,6 +14,6 @@ object PlusOne {
 
   private def decomposeNumber(number: BigInt): Array[Int] = {
     val strRep = number.toString
-    strRep.map(item => item.asDigit).toArray[Int]
+    strRep.toCharArray.map(item => item.asDigit)
   }
 }

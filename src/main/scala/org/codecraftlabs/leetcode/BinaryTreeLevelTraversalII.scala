@@ -7,7 +7,7 @@ object BinaryTreeLevelTraversalII {
   def levelOrderBottom(root: TreeNode): List[List[Int]] = {
     val resultingMap = mutable.LinkedHashMap[Int, ListBuffer[Int]]()
     preOrderTraversal(root, 0, resultingMap)
-    val finalResult = resultingMap.map(item => item._2.toList)
+    val finalResult = resultingMap.toArray.map(item => item._2.toList)
     finalResult.toList.reverse
   }
 

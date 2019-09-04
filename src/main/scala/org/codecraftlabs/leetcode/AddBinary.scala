@@ -29,7 +29,7 @@ object AddBinary {
   }
 
   private def binary2Decimal(value: String): BigInt = {
-    val elements = value.map(item => item.toString.toInt).toList.reverse
+    val elements = value.toCharArray.map(item => item.toString.toInt).toList.reverse
     bin2Dec(elements, 0, 0)
   }
 
