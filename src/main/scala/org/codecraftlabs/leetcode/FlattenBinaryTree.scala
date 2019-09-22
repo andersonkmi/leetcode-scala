@@ -6,7 +6,6 @@ object FlattenBinaryTree {
   def flatten(root: TreeNode): TreeNode = {
     val path = ListBuffer[TreeNode]()
     preOrderTraversal(root, path)
-    //path.foreach(item => println(item.value))
 
     var index = 0
     while(index < path.size - 1) {
