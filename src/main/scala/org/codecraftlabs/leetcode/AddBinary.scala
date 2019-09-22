@@ -21,16 +21,11 @@ object AddBinary {
   private def dec2Bin(value: BigInt, elements: List[Int]): String = {
     value match {
       case value if value == 0 => elements.mkString
-      case x =>
+      case _ =>
         val currentValue = value / 2
         val remainder = (value % 2).toInt
         dec2Bin(currentValue, remainder :: elements)
     }
-  }
-
-  private def binary2Decimal(value: String): BigInt = {
-    val elements = value.toCharArray.map(item => item.toString.toInt).toList.reverse
-    bin2Dec(elements, 0, 0)
   }
 
   private def bin2Dec(numbers: List[Int], accum: BigInt, exponent: Int): BigInt = {
