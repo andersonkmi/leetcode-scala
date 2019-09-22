@@ -16,7 +16,6 @@ object CountAndSay {
 
   private def say(value: String): String = {
     var elements = mutable.ArrayDeque[(Int, Char)]()
-    val stack = mutable.Stack[Char]()
 
     var counter = 1
     var currentChar = value.charAt(0)
