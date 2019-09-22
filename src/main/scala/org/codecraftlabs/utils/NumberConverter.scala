@@ -20,7 +20,7 @@ object NumberConverter {
   }
 
   def binary2Decimal(value: String): Long = {
-    val elements = value.map(item => item.toString.toInt).reverse.toList
+    val elements = value.toCharArray.map(item => item.toString.toInt).reverse.toList
     bin2Dec(elements, 0, 0)
   }
 

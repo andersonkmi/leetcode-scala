@@ -16,7 +16,7 @@ object ValidPalindrome {
 
   private def keepCharsOnly(sentence: String): String = {
     val ordinary=(('a' to 'z') ++ ('0' to '9')).toSet
-    sentence.map(item => {
+    sentence.toCharArray.map(item => {
       if(ordinary.contains(item)) item else ""
     }).mkString
   }

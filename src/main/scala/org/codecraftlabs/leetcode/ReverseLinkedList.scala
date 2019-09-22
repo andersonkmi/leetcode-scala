@@ -7,14 +7,14 @@ object ReverseLinkedList {
     if (head == null) {
       head
     } else {
-      val nodeStack = mutable.ArrayStack[ListNode]()
+      val nodeStack = mutable.Stack[ListNode]()
       process(head, nodeStack)
       nodeStack.head
     }
 
   }
 
-  private def process(node: ListNode, nodeStack: mutable.ArrayStack[ListNode]): Unit = {
+  private def process(node: ListNode, nodeStack: mutable.Stack[ListNode]): Unit = {
     if (node != null) {
       val item = node.next
 
