@@ -11,7 +11,6 @@ object TwoCharacters {
 
   private def validate(item: String): Boolean = {
     val lastPosition = item.length - 2
-    var broken = false
     for (pos <- 0 until lastPosition) {
       if (item.charAt(pos) != item.charAt(pos + 2)) {
         return false
