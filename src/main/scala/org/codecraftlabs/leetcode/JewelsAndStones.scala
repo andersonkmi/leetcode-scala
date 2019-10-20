@@ -5,7 +5,7 @@ object JewelsAndStones {
     val jewels = j.toSet
     val stones = s.toList
 
-    val groupedStones = stones.groupBy(identity).mapValues(_.length)
+    val groupedStones = stones.groupBy(identity).view.mapValues(_.length)
     groupedStones.filterKeys(jewels).values.sum
   }
 }
