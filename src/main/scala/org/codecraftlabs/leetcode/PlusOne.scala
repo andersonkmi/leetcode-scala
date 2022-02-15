@@ -2,12 +2,12 @@ package org.codecraftlabs.leetcode
 
 object PlusOne {
   def plusOne(digits: Array[Int]): Array[Int] = {
-    val currentNumber = composeNumber(digits, 0)
+    val currentNumber = composeNumber(digits)
     val newNumber = currentNumber + 1
     decomposeNumber(newNumber)
   }
 
-  private def composeNumber(digits: Array[Int], position: Int): BigInt = {
+  private def composeNumber(digits: Array[Int]): BigInt = {
     val number = digits.mkString
     BigInt(number)
   }
