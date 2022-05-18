@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class CountAndSaySpec extends FlatSpec with Matchers {
+class CountAndSaySpec extends AnyFlatSpec with Matchers {
   "The CountAndSay.countAndSay(1)" should "return 1" in {
     CountAndSay.countAndSay(1) shouldEqual "1"
   }

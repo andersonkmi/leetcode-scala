@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class RemoveDuplicatesSortedListIISpec extends FlatSpec with Matchers {
+class RemoveDuplicatesSortedListIISpec extends AnyFlatSpec with Matchers {
   "Empty list" should "return null" in {
     RemoveDuplicatesSortedListII.deleteDuplicates(null) should be (null)
   }

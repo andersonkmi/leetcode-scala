@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
 import org.codecraftlabs.leetcode.MiddleLinkedList.middleNode
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class MiddleLinkedListSpec extends FlatSpec with Matchers {
+class MiddleLinkedListSpec extends AnyFlatSpec with Matchers {
   "Null list" should "return None" in {
     middleNode(null) shouldBe None
   }

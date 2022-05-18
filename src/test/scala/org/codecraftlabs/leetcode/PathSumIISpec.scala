@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class PathSumIISpec extends FlatSpec with Matchers {
+class PathSumIISpec extends AnyFlatSpec with Matchers {
   "Test 001" should "be success" in {
     val root = new TreeNode(4)
     val node1 = new TreeNode(3)

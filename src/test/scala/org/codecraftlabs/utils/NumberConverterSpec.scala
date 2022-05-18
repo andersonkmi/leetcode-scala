@@ -1,9 +1,10 @@
 package org.codecraftlabs.utils
 
 import org.codecraftlabs.utils.NumberConverter.{binary2Decimal, decimal2Binary}
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class NumberConverterSpec extends FlatSpec with Matchers {
+class NumberConverterSpec extends AnyFlatSpec with Matchers {
   "0" should "return 0" in {
     decimal2Binary(0) shouldEqual "0"
   }

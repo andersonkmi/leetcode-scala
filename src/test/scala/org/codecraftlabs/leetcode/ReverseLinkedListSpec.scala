@@ -2,9 +2,10 @@ package org.codecraftlabs.leetcode
 
 import org.codecraftlabs.leetcode.ListNodeUtils.mkString
 import org.codecraftlabs.leetcode.ReverseLinkedList.reverseList
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class ReverseLinkedListSpec extends FlatSpec with Matchers {
+class ReverseLinkedListSpec extends AnyFlatSpec with Matchers {
   it should "return 3 -> 2 -> 1" in {
     val node1 = new ListNode(1)
     val node2 = new ListNode(2)

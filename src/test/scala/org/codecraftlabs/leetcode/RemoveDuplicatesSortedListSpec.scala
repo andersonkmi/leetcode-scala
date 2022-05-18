@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class RemoveDuplicatesSortedListSpec extends FlatSpec with Matchers {
+class RemoveDuplicatesSortedListSpec extends AnyFlatSpec with Matchers {
   "The RemoveDuplicatesSortedList " should "return null" in {
     RemoveDuplicatesSortedList.deleteDuplicates(null) shouldBe null
   }

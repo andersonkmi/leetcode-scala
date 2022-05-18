@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
-import WordBreak.wordBreak
+import org.codecraftlabs.leetcode.WordBreak.wordBreak
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class WordBreakSpec extends FlatSpec with Matchers {
+class WordBreakSpec extends AnyFlatSpec with Matchers {
   "Test case 001" should "return true" in {
     val wordDict = List("apple", "pen")
     val word = "apple"

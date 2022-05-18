@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class LongestCommonPrefixSpec extends FlatSpec with Matchers {
+class LongestCommonPrefixSpec extends AnyFlatSpec with Matchers {
   "Given two strings" should "car" in {
     val input = Array("cartoon", "carry")
     LongestCommonPrefix.longestCommonPrefix(input) shouldEqual "car"

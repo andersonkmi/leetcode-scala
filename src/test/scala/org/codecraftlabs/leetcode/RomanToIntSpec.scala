@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
-import RomanToInt.romanToInt
+import org.codecraftlabs.leetcode.RomanToInt.romanToInt
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class RomanToIntSpec extends FlatSpec with Matchers {
+class RomanToIntSpec extends AnyFlatSpec with Matchers {
   "III" should "return 3" in {
     romanToInt("III") shouldEqual 3
   }

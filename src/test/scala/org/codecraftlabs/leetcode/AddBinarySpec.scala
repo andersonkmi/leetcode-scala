@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
 import org.codecraftlabs.leetcode.AddBinary.addBinary
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class AddBinarySpec extends FlatSpec with Matchers {
+class AddBinarySpec extends AnyFlatSpec with Matchers {
   "a = \"11\", b = \"1\"" should "return 100" in {
     addBinary("11", "1") shouldEqual "100"
   }

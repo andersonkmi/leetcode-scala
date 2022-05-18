@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
-import PartitionList._
+import org.codecraftlabs.leetcode.PartitionList._
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class PartitionListSpec extends FlatSpec with Matchers {
+class PartitionListSpec extends AnyFlatSpec with Matchers {
   "1->4->3->2->5->2 and x = 2" should "return 1-2-2-4-3-5" in {
     val node1 = new ListNode(1)
     val node2 = new ListNode(4)

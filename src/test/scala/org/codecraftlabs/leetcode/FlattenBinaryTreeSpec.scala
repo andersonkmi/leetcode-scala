@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class FlattenBinaryTreeSpec extends FlatSpec with Matchers {
+class FlattenBinaryTreeSpec extends AnyFlatSpec with Matchers {
   "Binary tree" should "be flattened ok" in {
     val root = new TreeNode(4)
     val node1 = new TreeNode(3)

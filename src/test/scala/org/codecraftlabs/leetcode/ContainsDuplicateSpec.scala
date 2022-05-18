@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
 import org.codecraftlabs.leetcode.ContainsDuplicate.containsDuplicate
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class ContainsDuplicateSpec extends FlatSpec with Matchers {
+class ContainsDuplicateSpec extends AnyFlatSpec with Matchers {
   "Null array" should "return false" in {
     containsDuplicate(null) shouldEqual false
   }

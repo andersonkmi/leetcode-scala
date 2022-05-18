@@ -1,9 +1,10 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
 import MaximumSubarray.maxSubArray
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class MaximumSubarraySpec extends FlatSpec with Matchers {
+class MaximumSubarraySpec extends AnyFlatSpec with Matchers {
   "Array(1)" should "return 1" in {
     val numbers = Array(1)
     maxSubArray(numbers) shouldEqual 1

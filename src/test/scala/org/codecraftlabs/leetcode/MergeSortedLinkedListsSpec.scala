@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class MergeSortedLinkedListsSpec extends FlatSpec with Matchers {
+class MergeSortedLinkedListsSpec extends AnyFlatSpec with Matchers {
   "Given null lists to be merged" should "return null" in {
     val result = MergeSortedLinkedLists.mergeTwoLists(null, null)
     result should be (null)

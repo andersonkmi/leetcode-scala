@@ -1,8 +1,9 @@
 package org.codecraftlabs.leetcode
 
-import org.scalatest.{FlatSpec, Matchers}
+import org.scalatest.flatspec.AnyFlatSpec
+import org.scalatest.matchers.should.Matchers
 
-class ValidPalindromeSpec extends FlatSpec with Matchers {
+class ValidPalindromeSpec extends AnyFlatSpec with Matchers {
   "Empty string" should "return true" in {
     ValidPalindrome.isPalindrome("") shouldEqual true
   }
