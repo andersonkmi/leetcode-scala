@@ -26,4 +26,11 @@ class RationalSpec extends AnyFlatSpec with Matchers {
     rational.numer shouldEqual 2
     rational.denom shouldEqual 1
   }
+
+  "Initial value 3/6" should "be converted to 1/2" in {
+    val rational = new Rational(3, 6)
+
+    rational.numer shouldEqual 1
+    rational.denom shouldEqual 2
+  }
 }
