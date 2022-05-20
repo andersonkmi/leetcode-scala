@@ -19,4 +19,11 @@ class RationalSpec extends AnyFlatSpec with Matchers {
 
     r1.lessThan(r2) shouldEqual true
   }
+
+  "Rational 2" should "be 2/1" in {
+    val rational = new Rational(2)
+
+    rational.numer shouldEqual 2
+    rational.denom shouldEqual 1
+  }
 }
