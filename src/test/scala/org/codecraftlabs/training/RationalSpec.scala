@@ -12,4 +12,11 @@ class RationalSpec extends AnyFlatSpec with Matchers {
     result.numer shouldEqual 7
     result.denom shouldEqual 6
   }
+
+  "1/3 lessThan 1/2" should "return true" in {
+    val r1 = new Rational(1, 3)
+    val r2 = new Rational(1, 2)
+
+    r1.lessThan(r2) shouldEqual true
+  }
 }
