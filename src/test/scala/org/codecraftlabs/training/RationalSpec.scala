@@ -8,9 +8,18 @@ class RationalSpec extends AnyFlatSpec with Matchers {
     val r1 = new Rational(1, 2)
     val r2 = new Rational(2, 3)
 
-    val result = r1.add(r2)
+    val result = r1 + r2
     result.numer shouldEqual 7
     result.denom shouldEqual 6
+  }
+
+  "1/3 * 1/6" should "result in 2" in {
+    val r1 = new Rational(1, 3)
+    val r2 = new Rational(1, 6)
+
+    val result = r1 * r2
+    result.numer shouldEqual 2
+    result.denom shouldEqual 1
   }
 
   "1/3 lessThan 1/2" should "return true" in {
